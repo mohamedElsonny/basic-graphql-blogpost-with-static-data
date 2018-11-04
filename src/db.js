@@ -25,7 +25,7 @@ let posts = [
     id: '11',
     title: 'New Post',
     body: 'this is my new post',
-    published: false,
+    published: true,
     author: '1'
   },
   {
@@ -47,7 +47,7 @@ let posts = [
 let comments = [
   { id: '111', text: 'This is my first comment', author: '1', post: '11' },
   { id: '112', text: 'Hay this is awesome post', author: '3', post: '11' },
-  { id: '113', text: 'How are you today', author: '3', post: '12' },
+  { id: '113', text: 'How are you today', author: '3', post: '13' },
   { id: '114', text: 'Waw!! yaaay', author: '1', post: '13' }
 ]
 const db = { users, posts, comments }
